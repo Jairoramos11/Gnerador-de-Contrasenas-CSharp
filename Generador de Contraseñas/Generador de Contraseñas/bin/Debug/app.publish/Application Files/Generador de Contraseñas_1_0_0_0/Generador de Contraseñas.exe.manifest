@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Generador de Contraseñas.exe" version="1.0.0.0" publicKeyToken="1a9cefc00c5d8b0e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Generador de Contraseñas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Generador de Contraseñas.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225792">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8jOp+eTrOc3QViBpcFrTi2YzkZgnScugsbJBa0tnzY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Generador de Contraseñas.exe" size="19984">
+      <assemblyIdentity name="Generador de Contraseñas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>y25DCh0w0DDSSLKY84M2c5KCfjA9kELEzMcCj1wF9HU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Generador de Contraseñas.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-IGM90NV\Jairo Ramos H" issuerKeyHash="ffa1e6f8dd2ee0446e266998cac6a42d995e7112" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>prvwceLxXs/1ssaNJKAoKUlLdnFu5SpECFRttOgFfsU=</DigestValue></Reference></SignedInfo><SignatureValue>NP5iCLoNB3YzC0ZZi8K+QoJfteV0kZQtaNwd0tU+kU6N1om+zNSizpxmdsappizFWJ3QPYFI6LVrXEo2PSxj4AGA1qETNwDSjEx33UfebhDRE9Cm3vYLPzp3d9vyOtFgW3LQF80hsG45FLwB5//sSBDXbhmrmG6IO6Fa69Ai8WE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sicaBOP3l8u89D19Sswgxt0+jKO6Q3tAr0TXWwA0mBxM4ppakADEscjSVF8yDesR9tG8xTkbhKDBxLFy29o6cbL3ucaFdW+aTKg/iIkPeh/RBQs+MzRErMFjCJg43ENPtXmIUoqmqxqyBRdriM+ZrjEDL51WsBb019XDEhqY3Gk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c57e05e8b46d5408442ae56e71764b492928a0248dc6b2f5cf5ef1e271f0bba6" Description="" Url=""><as:assemblyIdentity name="Generador de Contraseñas.exe" version="1.0.0.0" publicKeyToken="1a9cefc00c5d8b0e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IGM90NV\Jairo Ramos H</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kKwP+bGxkih7NyblnxCuehs1L+jOrjjxpU31vPRXQy8=</DigestValue></Reference></SignedInfo><SignatureValue>POerSCAJdn22/IPCIm693jG7vtybPAvVBaFJuH/UiIWJXrf4qDcHskWBW2so/y9BIxlaOCKwRpL2cxdwdLDSYbwQPjZG00CdOozDLup6+wqrUK0w7vVWaAqfWikTZzrv4XXJDGwywXZcmVj6diw2VpFJxAG+bDOq4rtg06WBGfM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sicaBOP3l8u89D19Sswgxt0+jKO6Q3tAr0TXWwA0mBxM4ppakADEscjSVF8yDesR9tG8xTkbhKDBxLFy29o6cbL3ucaFdW+aTKg/iIkPeh/RBQs+MzRErMFjCJg43ENPtXmIUoqmqxqyBRdriM+ZrjEDL51WsBb019XDEhqY3Gk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQf0p8jt//2axHwsms5b12mjANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoARABFAFMASwBUAE8AUAAtAEkARwBNADkAMABOAFYAXABKAGEAaQByAG8AIABSAGEAbQBvAHMAIABIMB4XDTIyMDYwNzE1Mjg0NFoXDTIzMDYwNzIxMjg0NFowRTFDMEEGA1UEAx46AEQARQBTAEsAVABPAFAALQBJAEcATQA5ADAATgBWAFwASgBhAGkAcgBvACAAUgBhAG0AbwBzACAASDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsicaBOP3l8u89D19Sswgxt0+jKO6Q3tAr0TXWwA0mBxM4ppakADEscjSVF8yDesR9tG8xTkbhKDBxLFy29o6cbL3ucaFdW+aTKg/iIkPeh/RBQs+MzRErMFjCJg43ENPtXmIUoqmqxqyBRdriM+ZrjEDL51WsBb019XDEhqY3GkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAOEJbnfaqU9dGRjL01nR4y9jvG5KvQNed6EyHuX0wmFVx4YNZmF7GQdjQ+tCfnE3mCA+Cfva6plEQLVgMYsSpzIA5tnlveWtTCzmki8Y+eDI9tP0jE+o7FEac/E1r/ZwzuNSDsEqMLAOCi0QHZg+zSHnO7tPzvWpAOwHd0xgpr2g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

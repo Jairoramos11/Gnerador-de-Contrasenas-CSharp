@@ -1,0 +1,15 @@
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\bin\Debug\Generador de Contraseñas.exe.config
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\bin\Debug\Generador de Contraseñas.exe
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\bin\Debug\Generador de Contraseñas.pdb
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador de Contraseñas.csproj.AssemblyReference.cache
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador_de_Contraseñas.Form1.resources
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador_de_Contraseñas.Properties.Resources.resources
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador de Contraseñas.csproj.GenerateResource.cache
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador de Contraseñas.csproj.CoreCompileInputs.cache
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador de Contraseñas.exe
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador de Contraseñas.pdb
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\bin\Debug\Generador de Contraseñas.exe.manifest
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\bin\Debug\Generador de Contraseñas.application
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador de Contraseñas.exe.manifest
+C:\Users\Jairo Ramos H\source\repos\Generador de Contraseñas\Generador de Contraseñas\obj\Debug\Generador de Contraseñas.application
